@@ -1,0 +1,22 @@
+{
+  "name": "rdv",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "Alexey Zavalin <lehazavalin95@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "bootstrap.css#^2.3.2",
+    "normalize-css": "normalize.css#^5.0.0"
+  }
+}
