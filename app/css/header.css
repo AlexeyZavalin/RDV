@@ -1,0 +1,53 @@
+.header {
+  box-shadow: 0 2px 2px -2px #000;
+  padding: 10px 0;
+  background: #fff;
+}
+.header .header__items {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+}
+.header .header__logo {
+  display: flex;
+  align-items: center;
+}
+.header .header__logo .logo-img {
+  width: 144px;
+}
+.header .header__logo img {
+  width: 100%;
+}
+.header .header__logo .logo-title {
+  font-size: 15px;
+  margin-left: 20px;
+}
+.header .header__menu .menu__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.header .header__menu .menu__list .menu__item .menu__link {
+  text-align: center;
+  padding: 10px 15px;
+  display: block;
+  font-size: 15px;
+  color: #000;
+}
+.header .header__menu .menu__list .menu__item .menu__link_enter {
+  color: #477ab8;
+  padding: 10px 15px;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+}
+.header .header__menu .menu__list .menu__item .menu__link_enter:before {
+  content: '\2386';
+}
+.header .header__phone a .phone__number {
+  font-size: 1.5em;
+  color: #252e34;
+}
+.header .header__phone a:hover .text {
+  text-decoration: none;
+}

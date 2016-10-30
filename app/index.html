@@ -10,20 +10,51 @@
 	<!--bower:css-->
 	<link rel="stylesheet" href="bower_components/normalize-css/normalize.css" />
 	<!--endbower-->
-	<link rel="stylesheet" href="bower_components/bootstrap/css/bootstrap-responsive.min.css">
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 	<!-- endbuild -->
 	<!-- build:css css/common.css -->
-	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/header.css">
 	<link rel="stylesheet" href="css/search.css">
 	<link rel="stylesheet" href="css/footer.css">
 	<!-- endbuild -->
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
 </head>
 <body>
+	<header class="header">
+		<div class="container">
+			<div class="header__items">
+				<div class="header__logo">
+					<div class="logo-img"><img src="img/logo.png" alt="ЛОГО"></div>
+					<div class="logo-title">Российская<br> гильдия<br> риэлторов ДФО</div>
+				</div>
+				<div class="header__menu">
+					<ul class="menu__list">
+						<li class="menu__item"><a href="#" class="menu__link">О нас</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Члены РДВ</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Учебный центр</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+						<li class="menu__item"><a href="#" class="menu__link menu__link_enter">Войти</a></li>
+					</ul>
+				</div>
+				<div class="header__phone">
+					<a href="tel:(495)123−45−67" title="Позвонить"><span class="phone__number">(495)123−45−67</span><br>
+						<span class="text">Заказать обратный звонок</span>
+					</a>
+				</div>
+				<div class="header__logo2"><img src="img/logo2.png" alt="ЛОГО 2"></div>
+			</div>
+		</div>
+	</header>
 	<!-- build:js scripts/vendor.js -->
 	<!--bower:js-->
 	<script src="bower_components/jquery/dist/jquery.js"></script>
+	<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 	<!--endbower-->
 	<!-- endbuild -->
 	<!-- build:js scripts/common.js -->
